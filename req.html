@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Requirement Form</title>
+        <link rel="stylesheet" href="css/req.css">
+      
+        <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>-->
+	 
+    </head>
+    <body>
+        <form action="index.html">
+            <div class="container">
+              <h1>Form to be filled</h1>
+              
+              <hr>
+          
+              <label for="name"><b>NAME</b></label>
+              <input type="text" placeholder="Enter Name" name="name" id="name" ><br>
+          
+              <label for="dat"><b>DATE OF BIRTH</b></label><br>
+              <input type="date"  name="dat" id="datee" ><br>
+          
+              <label for="age"><b>AGE</b></label>
+              <input type="number" placeholder="Age" name="age-rpt" id="age-rpt" >
+
+              <label for="Gender"><b>GENDER</b></label><br>
+              <select>
+                <option value="MALE">MALE</option>
+                <option value="MALE">FEMALE</option>
+                <option value="MALE">OTHER</option>
+              </select> <br>
+
+              <label for="phone"><b>PHONE NUMBER</b></label>
+              <input type="number" placeholder="Phone number" name="num-rpt" id="num-rpt" >
+
+              <label for="Email"><b>EMAIL</b></label>
+              <input type="text" placeholder="Enter Email" name="email" id="Email" ><br>
+
+              <label for="District"><b>DISTRICT</b></label><br>
+              <select>
+                <option>SELECT DISTRICT</option>
+                <option value="TVM">THIRUVANANTHAPURAM</option>
+                <option value="KOLLAM">KOLLAM</option>
+                <option value="ALAPPUZHA">ALAPPUZHA</option>
+                <option value="EKM">ERNAKULAM</option>
+                <option value="TSR">THRISSUR</option>
+              </select> <br>
+
+              <label for="Branch"><b>BRANCHES</b></label><br>
+              <select>
+                <option>SELECT BRANCHES</option>
+                <option value="TVM">THIRUVANANTHAPURAM</option>
+                <option value="KOLLAM">KOLLAM</option>
+                <option value="ALAPPUZHA">ALAPPUZHA</option>
+                <option value="EKM">ERNAKULAM</option>
+                <option value="TSR">THRISSUR</option>
+              </select> <br>
+
+              <label for="account"><b>ACCOUNT TYPE</b></label><br>
+              <select>
+                <option>SELECT ACCOUNT TYPE</option>
+                <option value="sav">Savings</option>
+                <option value="credit">Credit</option>
+                <option value="current">Current</option>
+              </select> <br>
+
+              <label for="material"><b>MATERIAL TYPE</b></label><br><br>
+              <input type="checkbox" value="debit" name="debit"><label for="debit">DEBIT</label><br>
+              <input type="checkbox" value="debit" name="credit"><label for="credit">CREDIT</label><br>
+              <input type="checkbox" value="debit" name="cheque"><label for="cheque">CHEQUE</label><br>
+            
+              </div>
+
+              
+          
+
+          
+              <hr>
+          
+              <button   class="registerbtn" onclick="myFunction() " >Register & Log Out</button>
+            </div>
+            <script>
+                
+    
+                function myFunction() {
+                  alert("Application Accepted");
+                
+                 window.location.href = "index.html";
+                
+                }
+                </script>
+            <div class="container signin">
+              <!-- <p>Already have an account? <a href="C:\Users\LENOVO\Desktop\COMPANY\task\Banking\registration.html">Sign in</a>.</p> -->
+            </div>
+          </form>
+    </body>
+</html>
